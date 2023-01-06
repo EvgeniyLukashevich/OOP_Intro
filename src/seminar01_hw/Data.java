@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Data {
 
-    private static final String fileName = "src/old/ContactList.txt";
+    private static final String fileName = "src/seminar01_hw/ContactList.txt";
 
     public static void writeNewContact(String[] contactArray) throws IOException {
         FileWriter writeFile = new FileWriter(
@@ -31,11 +31,8 @@ public class Data {
         return contacts.toString().split("\n");
     }
 
-    public static void main(String[] args) throws Exception {
-        String[] array = readContactList();
-        for (String s : array) {
-            System.out.println(s);
-        }
 
+
+    public static void main(String[] args) throws Exception {
     }
 }
