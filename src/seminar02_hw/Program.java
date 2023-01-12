@@ -15,7 +15,7 @@ public class Program {
         Person person2 = new Person("Marina Popova", "15.07.1917", "female");
         new GenerationCurrent(person1, person2, "husband");
         new GenerationCurrent(person2, person1, "wife");
-        Person person3 = new Person("Angelina Shadrina", "25.03.1935", "female");
+        Person person3 = new Person("Angelina Ivanova", "25.03.1935", "female");
         new GenerationOlder(person1, person3, "father");
         new GenerationOlder(person2, person3, "mother");
         new GenerationYounger(person3, person1, "daughter");
@@ -27,7 +27,7 @@ public class Program {
         new GenerationYounger(person4, person2, "son");
         new GenerationCurrent(person3, person4, "sister");
         new GenerationCurrent(person4, person3, "brother");
-        Person person5 = new Person("Andrey Shadrin", "25.05.1933", "male");
+        Person person5 = new Person("Andrey Ivanov", "25.05.1933", "male");
         new GenerationOlder(person1, person5, "parent-in-law");
         new GenerationOlder(person2, person5, "mother-in-law");
         new GenerationYounger(person5, person1, "son-in-law");
